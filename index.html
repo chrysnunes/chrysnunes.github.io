@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap" rel="stylesheet">
+<title>Novo site</title>
+	<style>
+	
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0px;
+			text-align: center;
+			font-family: 'Inter Tight', sans-serif;
+		}
+
+		.header {
+			width: 100%;
+			height: auto;
+		}
+		.logo {
+			width: 100%;
+			height: auto;
+			padding: 40px;
+		}
+		.logo img {
+			width: 300px;
+		}
+		.menu {
+			width: 100%;
+			height: auto;
+			background-color:#002868;
+		}
+		.menu ul {
+			list-style-type: none;
+			padding: 0px;
+			margin: 0px;
+		}
+		.menu li {
+			display: inline-block;
+		}
+		.menu a {
+			padding: 20px;
+			display: block;
+			color: #FFF;
+			text-decoration: none;
+		}
+		.menu a:hover {
+			background-color:#18A7CC;
+		}
+		.banner {
+			width: 100%;
+			height: 50%;
+			background-color: #18A7CC;
+		}
+		.banner img {
+			height: 300px;
+			width: 100%;
+			object-fit: cover;
+			object-position: 0 0;
+		}
+		
+		.conteudo {
+			height: auto;
+			background-color: #18A7CC;
+			padding: 40px;
+		}
+	
+		.card {
+			width: 40%;
+			height: 320px;
+			background-color: #DBDBDB;
+			display: inline-table;
+			margin: 10px;
+			padding: 20px;
+		}
+		
+		.rodape {
+			padding: 10px 0 40px 0;
+			background-color: #DBDBDB;
+			font-size: 20px;
+			line-height: 70px;
+		}
+		
+		.card-rodape {
+			width: 250px;
+			height: 150px;
+			background-color: #000000;
+			text-align: left;
+			color: #FFFFFF;
+			display: inline-table;
+			margin: 10px;	
+			
+		}
+
+		.fotos{
+			padding-top: 40px;
+			display: flex;
+			justify-content: center;
+			gap: 80px;
+		}
+
+		.card-fotos{
+			width: 300px;
+			height: 300px;
+			font-size: 16px;
+		}
+
+		.card-fotos img{
+			height: 200px;
+			width: 300px;
+			object-fit: cover;
+		}
+		
+		.icone img {
+			width: 25%;
+			height: 25%;
+		}
+		
+		.textinho{
+			font-size: 20px;
+		}
+
+		
+	</style>
+</head>
+
+<body>
+	<div class="header">
+	
+		<div class="logo"><img src="imagens/Agile-Logo.png" alt="Logo Univille" /></div>
+		<nav class="menu">
+		
+			<ul>
+			
+				<li><a href="./index.html">Conheça a Empresa</a></li>
+				<li><a href="./clientes.html">Nossos Clientes</a></li>
+				<li><a href="#">Planos e Preços</a></li>
+				<li><a href="./contato.html">Contato</a></li>
+			
+			</ul>
+		
+		</nav>
+	
+	</div>
+	<div class="banner"><img src="imagens/agile.png" alt="agile"/></div>
+	
+	<div class="conteudo">
+	
+			<div class="card">
+				<div class="icone">
+					<img src="imagens/agilidade.png">
+				</div>
+				<div class="textinho">
+					<h3>Afinal, qual a vantagem de ser ágil?</h3>
+					Encurte ciclos invertendo a pirâmide de comando e controle, garanta uma equipe autônoma e altamente adaptativa e focada no seu cliente.
+				</div>
+			</div>
+			<div class="card"><div class="icone"><img src="imagens/agil.png"></div><div class="textinho"><h3>Como funciona o modelo ágil.</h3> Trabalhamos com a ideia de um modelo ágil onde se descobre, se testa e se entrega garantindo constância, qualidade e redução de erros.</div></div>
+			<div class="card"><div class="icone"><img src="imagens/business-meeting.png"></div><div class="textinho"><h3>Fuja do tradicional.</h3> Faça com que seus clientes tenham contato com seu projeto do início ao fim, acelerando o retorno investido.</div></div>
+			<div class="card"><div class="icone"><img src="imagens/money-bag.png"></div><div class="textinho"><h3>Evite erros, seja ágil.</h3> Uma empresa pautada em metodologias e processos ágeis garantem visibilidade total para suas equipes, reduzem impedimentos e garantem entregas certeiras e de valor aos seus clientes.</div></div>
+	</div>
+
+	<div class="fotos">
+		<div class="card-fotos">
+			<img src="./imagens/imagem1.jpg" alt="Reunião Concluída">
+			<p>Profissionais agilistas possuem algo em comum: resolução rápida de problemas.</p>
+		</div>
+
+		<div class="card-fotos">
+			<img src="./imagens/imagem2.jpg" alt="Praticidade">
+			<p>Em um mundo hiperconectado, é necessário estar disposto a mudar sua rota e estratégia.</p>
+		</div>
+
+		<div class="card-fotos">
+			<img src="./imagens/imagem3.jpg" alt="Reunião em Andamento">
+			<p>Realize entregas constantes ao seu cliente. Faça com que ele perceba o valor da sua parceria e tenha o retorno de seu investimento.</p>
+		</div>
+	</div>
+	
+	<div class="rodape">
+		
+		<h3>Conheça nossa localização:</h3>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.516802816199!2d-48.88482298457061!3d-26.2448854834197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deb05ae7a8de03%3A0x8c6c032447fab9d2!2sOperand!5e0!3m2!1spt-BR!2sbr!4v1664405995520!5m2!1spt-BR!2sbr" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	
+	</div>
+</body>
+</html>

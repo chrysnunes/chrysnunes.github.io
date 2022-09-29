@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap" rel="stylesheet">
+<title>Novo site</title>
+	<style>
+
+        * {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+	
+		body {
+			margin: 0px;
+			text-align: center;
+			font-family: 'Inter Tight', sans-serif;
+		}
+
+		.header {
+			width: 100%;
+			height: auto;
+		}
+		.logo {
+			width: 100%;
+			height: auto;
+			padding: 40px;
+		}
+		.logo img {
+			width: 300px;
+		}
+		.menu {
+			width: 100%;
+			height: auto;
+			background-color:#002868;
+		}
+		.menu ul {
+			list-style-type: none;
+			padding: 0px;
+			margin: 0px;
+		}
+		.menu li {
+			display: inline-block;
+		}
+		.menu a {
+			padding: 20px;
+			display: block;
+			color: #FFF;
+			text-decoration: none;
+		}
+		.menu a:hover {
+			background-color:#18A7CC;
+		}
+		.banner {
+			width: 100%;
+			height: 50%;
+			background-color: #18A7CC;
+		}
+		.banner img {
+			height: 300px;
+			width: 100%;
+			object-fit: cover;
+			object-position: 0 0;
+		}
+		
+        .conteudo{
+            display: flex;
+            flex-direction: column;
+            max-width: 100%;
+            padding: 40px;
+            gap: 30px
+        }
+
+        .card {
+            display: flex;
+            justify-content: space-between;
+            text-align: left;
+            font-size: 24px;
+            padding-right: 30px;
+            border: 3px solid #18A7CC;
+            border-radius: 16px;
+        }
+
+        .card img{
+            width: auto;
+            height: 250px;
+            padding: 40px 60px 0 100px;
+        }
+
+        .right {
+            text-align: right;
+            padding-left: 30px;
+            padding-right: 0;
+        }
+
+        .video {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+		.rodape {
+			padding: 10px 0 40px 0;
+			background-color: #DBDBDB;
+			font-size: 20px;
+            line-height: 70px;
+		}
+
+		
+	</style>
+</head>
+
+<body>
+	<div class="header">
+	
+		<div class="logo"><img src="imagens/Agile-Logo.png" alt="Logo Univille" /></div>
+		<nav class="menu">
+		
+			<ul>
+			
+				<li><a href="./index.html">Conheça a Empresa</a></li>
+				<li><a href="./clientes.html">Nossos Clientes</a></li>
+				<li><a href="#">Planos e Preços</a></li>
+				<li><a href="./contato.html">Contato</a></li>
+			
+			</ul>
+		
+		</nav>
+	
+	</div>
+	<div class="banner"><img src="imagens/agile.png" alt="agile"/></div>
+	
+    <div class="conteudo">
+        <div class="conteudo">
+        <div class="card">
+            <img src="./imagens/bosch.jpg" alt="Logo Bosch">
+            <div>
+                <p>O Grupo Bosch é um líder mundial no fornecimento de tecnologia e serviços. A empresa emprega aproximadamente 402,600 mil colaboradores em todo o mundo (posição de 31.12.2021). A empresa gerou vendas de 78,7 bilhões de euros em 2021. As operações do Grupo estão divididas em quatro setores de negócio: Soluções para Mobilidade, Tecnologia Industrial, Bens de Consumo e Energia e Tecnologia Predial. Como uma empresa líder em IoT, a Bosch oferece soluções inovadoras para casas e cidades inteligentes, Indústria 4.0 e mobilidade conectada. A empresa busca por uma mobilidade sustentável, segura e fascinante e utiliza sua expertise em sensores, software e serviços, assim como sua própria nuvem de IoT para oferecer aos seus consumidores conectados múltiplas soluções a partir de uma única fonte. O objetivo estratégico do Grupo Bosch é disponibilizar inovações para uma vida conectada com produtos e soluções que contêm inteligência artificial (IA) ou que foram desenvolvidos ou fabricados por meio da IA.</p>
+            </div>
+        </div>
+
+        <div class="card right">
+            <div>
+                <p>A SAP Brasil está entre as mais importantes subsidiárias da empresa em todo o mundo. Com mais de 15.000 clientes, a companhia atua em todo o território nacional apoiada por uma rede de mais de 400 parceiros de negócios. Presente há 25 anos no país, a SAP é líder do mercado mundial de aplicações de software empresarial e ajuda empresas de todos os tamanhos e setores do mercado a funcionar melhor – 77% das transações mundiais são realizadas usando sistemas SAP. Nossas tecnologias de machine learning, Internet das Coisas (IoT) e análise avançada de dados ajudam a transformar os negócios de nossos clientes em empresas inteligentes. A SAP também proporciona às pessoas e organizações uma visão de negócios profunda e promove colaboração que os ajuda a permanecer à frente de seus concorrentes. Simplificamos a tecnologia para as empresas para que possam consumir nosso software do modo que quiserem – sem interrupções.</p>
+            </div>
+            <img src="./imagens/sap.png" alt="Logo SAP">
+        </div>
+
+        <div class="card">
+            <img src="./imagens/spotify.png" alt="Logo Spotify">
+            <div>
+                <p>Spotify é um serviço de streaming de música, podcast e vídeo que foi lançado oficialmente em 7 de outubro de 2008. É o serviço de streaming de música mais popular e usado do mundo. Ele é desenvolvido pela startup Spotify AB em Estocolmo, Suécia. Ele fornece conteúdo protegido de conteúdo provido de restrição de gestão de direitos digitais de gravadoras e empresas de mídia. O Spotify é um serviço freemium; com recursos básicos sendo gratuitos com propagandas ou limitações, enquanto recursos adicionais, como qualidade de transmissão aprimorada e downloads de música, são oferecidos para assinaturas pagas.</p>
+            </div>
+        </div>
+
+        <div class="video">
+            <iframe width="1237" height="696" src="https://www.youtube.com/embed/F8P_pN_9fMY" title="Descubra qual a principal habilidade do Agilista" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    </div>
+	
+	<div class="rodape">
+		
+		<h3>Conheça nossa localização:</h3>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.516802816199!2d-48.88482298457061!3d-26.2448854834197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deb05ae7a8de03%3A0x8c6c032447fab9d2!2sOperand!5e0!3m2!1spt-BR!2sbr!4v1664405995520!5m2!1spt-BR!2sbr" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	
+	</div>
+</body>
+</html>
